@@ -13,10 +13,9 @@ function stanford_quote_taxonomy_default_vocabularies() {
       'name' => 'Destination',
       'machine_name' => 's_destination',
       'description' => 'Where this content should be displayed on your site.',
-      'hierarchy' => '0',
+      'hierarchy' => 0,
       'module' => 'taxonomy',
-      'weight' => '0',
-      'metatags' => array(),
+      'weight' => 0,
       'rdf_mapping' => array(
         'rdftype' => array(
           0 => 'skos:ConceptScheme',
